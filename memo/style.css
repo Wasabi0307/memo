@@ -1,0 +1,129 @@
+/*フォント*/
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+.font{
+  font-family: 'Kosugi Maru', sans-serif;
+}
+body{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  background: #fbfbfa;
+  
+}
+h1{
+  color: #545454;
+  font-size: 20px;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+p{
+    font-family: 'Kosugi Maru', sans-serif;
+    padding: 7px;
+}
+textarea{
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 700px;
+    height: 200px;
+    border: 10px;
+    background: #f6f5f5;
+    display: block;
+}
+
+/*ボタン*/
+.btn-square {
+  font-family: 'Kosugi Maru', sans-serif;
+  display: inline-block;
+  float: left;
+  padding: 0.8em 3em;
+  text-decoration: none;
+  background: #668ad8;
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:hover{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.btn-button {
+  font-family: 'Kosugi Maru', sans-serif;
+  display: inline-block;
+  padding: 9px 1.5em;
+  text-decoration: none;
+  background: #668ad8;
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-button:hover{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  font-family: 'Kosugi Maru', sans-serif;
+  display: inline-block;
+  float: left;
+  padding: 0.4em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-cancel:hover {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+  cursor: pointer;
+}
+/*メモ*/
+article {
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/*エラー・サクセスメッセージ*/
+.success_message {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #48b400;
+    border-radius: 10px;
+    border: 1px solid #4dc100;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.error_message {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ef072d;
+    list-style-type: none;
+    border-radius: 10px;
+    border: 1px solid #ff5f79;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.btn_cancel {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 20px;
+	color: #555;
+	font-size: 86%;
+	border-radius: 5px;
+	border: 1px solid #999;
+}
+.btn_cancel:hover {
+	color: #999;
+	border-color: #999;
+	text-decoration: none;
+}
